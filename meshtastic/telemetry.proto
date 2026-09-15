@@ -819,6 +819,12 @@ message Telemetry {
      * Soil and water probe metrics
      */
     SoilWaterMetrics soil_water_metrics = 11;
+	
+	/*
+     * Health telemetry metrics
+     */
+    LocalStatsExtended local_stats_extended = 20;
+	
   }
 }
 
